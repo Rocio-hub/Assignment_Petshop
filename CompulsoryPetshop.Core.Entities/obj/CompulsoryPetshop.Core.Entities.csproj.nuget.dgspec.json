@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {}
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
+        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
         "projectName": "CompulsoryPetshop.Core.Entities",
-        "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
+        "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
         "packagesPath": "C:\\Users\\Rocío\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\obj\\",
+        "outputPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocío\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,6 +54,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

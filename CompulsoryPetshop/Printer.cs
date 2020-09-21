@@ -58,7 +58,7 @@ namespace CompulsoryPetshop.UI
 
             foreach (var pet in sortedList)
             {
-                Console.WriteLine($"{pet.PetId}\t{pet.PetName}\t{pet.PetType}\t{pet.Price}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
+                Console.WriteLine($"{pet.PetID}\t{pet.PetName}\t{pet.PetType}\t{pet.PetPrice}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
                     $"\t{pet.PetColor}\t{pet.PetPrevOwner}");
             }
             Console.WriteLine(" ");
@@ -79,7 +79,7 @@ namespace CompulsoryPetshop.UI
             Console.WriteLine("ID\tNAME\t\tTYPE\t\tPRICE\tBIRTH DATE\tSOLD DATE\tCOLOR\tPREVIOUS OWNER");
             foreach (var pet in cheapPetList)
             {
-                Console.WriteLine($"{pet.PetId}\t{pet.PetName}\t\t{pet.PetType}\t\t{pet.Price}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
+                Console.WriteLine($"{pet.PetID}\t{pet.PetName}\t\t{pet.PetType}\t\t{pet.PetPrice}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
                    $"\t{pet.PetColor}\t{pet.PetPrevOwner}");
             }
             Console.WriteLine(" ");
@@ -94,7 +94,7 @@ namespace CompulsoryPetshop.UI
 
             foreach (var pet in petList)
             {
-                Console.WriteLine($"{pet.PetId}\t{pet.PetName}\t\t{pet.PetType}\t\t{pet.Price}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
+                Console.WriteLine($"{pet.PetID}\t{pet.PetName}\t\t{pet.PetType}\t\t{pet.PetPrice}\t{pet.PetBirthDate.ToShortDateString()}\t{pet.PetSoldDate.ToShortDateString()}" +
                     $"\t{pet.PetColor}\t{pet.PetPrevOwner}");
             }
             Console.WriteLine(" ");
@@ -118,7 +118,7 @@ namespace CompulsoryPetshop.UI
             Console.WriteLine("Insert previous owner: ");
             newPet.PetPrevOwner = Console.ReadLine();
             Console.WriteLine("Insert price: ");
-            newPet.Price = checkDouble(Console.ReadLine());
+            newPet.PetPrice = checkDouble(Console.ReadLine());
 
             return newPet;
         }
@@ -166,7 +166,7 @@ namespace CompulsoryPetshop.UI
             Console.WriteLine("Insert previous owner: ");
             update.PetPrevOwner = Console.ReadLine();
             Console.WriteLine("Insert price: ");
-            update.Price = checkDouble(Console.ReadLine());
+            update.PetPrice = checkDouble(Console.ReadLine());
 
             return update;
         }

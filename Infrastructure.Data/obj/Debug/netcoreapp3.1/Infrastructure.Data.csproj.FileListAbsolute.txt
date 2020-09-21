@@ -40,3 +40,17 @@ C:\CSharp\CompulsoryPetshop-master\Infrastructure.Data\obj\Debug\netcoreapp3.1\I
 C:\CSharp\CompulsoryPetshop-master\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CopyComplete
 C:\CSharp\CompulsoryPetshop-master\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.dll
 C:\CSharp\CompulsoryPetshop-master\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.deps.json
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\CompulsoryPetshop.Core.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\CompulsoryPetshop.Core.Entities.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\CompulsoryPetshop.Core.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\bin\Debug\netcoreapp3.1\CompulsoryPetshop.Core.Entities.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csprojAssemblyReference.cache
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfo.cs
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CopyComplete
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CoreCompileInputs.cache

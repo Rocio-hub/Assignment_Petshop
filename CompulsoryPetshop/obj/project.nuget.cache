@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "7bGUARKKgIvi0q1/2ETpOlB1xwgr1yphAM11JUfun+fvAxRQ/E0J4o4A9PwTwlJcLDjHqhFz7Ma7ECCVorcikQ==",
+  "dgSpecHash": "EC+LNuVrB0PtEK0hpNQvXj2OTuTsyREyqNQx4qCX7HbSzVSBcdFEaCp9ZiLzLSKl19hujQ4LDf19a1xRcSCyPQ==",
   "success": true,
-  "projectFilePath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
+  "projectFilePath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
-    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.0\\swashbuckle.aspnetcore.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.0\\swashbuckle.aspnetcore.swagger.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.0\\swashbuckle.aspnetcore.swaggergen.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.0\\swashbuckle.aspnetcore.swaggerui.5.6.0.nupkg.sha512"
   ],
   "logs": []
 }

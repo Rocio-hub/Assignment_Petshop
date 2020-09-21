@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dF0GIZHwfoguXdDPaGeZy1ps+zvN9wJ45ojYuQSt1Wl2qsa9FowMM+kRp6Z5ftByquC1YcshEQgCJ8560r+FQw==",
+  "success": true,
+  "projectFilePath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\PetshopRestAPI\\PetshopRestAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.0\\swashbuckle.aspnetcore.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.0\\swashbuckle.aspnetcore.swagger.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.0\\swashbuckle.aspnetcore.swaggergen.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.0\\swashbuckle.aspnetcore.swaggerui.5.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Qrkc0mPr8MPwa8hvBqWFm217RMLiUlVimlz8JkIIwxHWFp6UIgoKltl/nsxQyiEf9B8obrf6yUAaPom31Dq79Q==",
+  "dgSpecHash": "oaBXWC88Ka5iVdEAbHwCmVY6IFGbgDL4sfcNVcX5TAJ/54uERLsOw8uXGHeEeLN3OQd/+6KBclc0jVxuuSf+9w==",
   "success": true,
-  "projectFilePath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.0\\swashbuckle.aspnetcore.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.0\\swashbuckle.aspnetcore.swagger.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.0\\swashbuckle.aspnetcore.swaggergen.5.6.0.nupkg.sha512",
+    "C:\\Users\\Rocío\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.0\\swashbuckle.aspnetcore.swaggerui.5.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

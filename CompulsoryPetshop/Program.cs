@@ -47,7 +47,7 @@ namespace CompulsoryPetshop.UI
                     case 3:
                         Console.Clear();
                         Pet newPet = printer.CreatePet();
-                        newPet.PetId = petList.Count + 1;
+                        newPet.PetID = petList.Count + 1;
                         _petService.CreatePet(newPet);
                         break;
                     case 4:

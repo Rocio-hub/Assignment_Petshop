@@ -7,16 +7,29 @@ namespace CompulsoryPetshop.Core.DomainService
 {
     public interface IPetRepository
     {
+
+        public Pet CreatePet(Pet newPet);
+
+
+        public List<Pet> ReadAllPets();
+
         public List<Pet> GetSortedList();
 
-        public List<Pet> GetSortedFiveList();
+        public List<Pet> GetSortedFiveList();        
 
-        public void CreatePet(Pet newPet);
+        public List<Pet> GetPetsByType(string typename);
 
-        public List<Pet> GetPetsByType(string type);
+        public Pet FindPetbyID(int id);
 
-        public void DeleteByID(int id);
-        public void UpdateByID(int id, Pet pet);
+
+        public Pet UpdateByID(int id, Pet pet);
+
+
+
+        public Pet DeleteByID(int id);
+       
+
+        
     }
 }
 

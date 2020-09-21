@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj": {}
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
+        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
         "projectName": "CompulsoryPetshop.Core.Entities",
-        "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
+        "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj",
         "packagesPath": "C:\\Users\\Rocío\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\obj\\",
+        "outputPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocío\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,6 +54,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -56,14 +65,14 @@
         }
       }
     },
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
+        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
         "projectName": "CompulsoryPetshop.Core",
-        "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
+        "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj",
         "packagesPath": "C:\\Users\\Rocío\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\obj\\",
+        "outputPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocío\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +88,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
-                "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj"
+              "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj": {
+                "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core.Entities\\CompulsoryPetshop.Core.Entities.csproj"
               }
             }
           }
@@ -93,6 +102,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -104,6 +119,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -112,14 +130,14 @@
         }
       }
     },
-    "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj": {
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
+        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
         "projectName": "CompulsoryPetshop.UI",
-        "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
+        "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\CompulsoryPetshop.UI.csproj",
         "packagesPath": "C:\\Users\\Rocío\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop\\obj\\",
+        "outputPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocío\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,11 +153,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
-                "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj"
+              "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
+                "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj"
               },
-              "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-                "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\Infrastructure.Data.csproj"
               }
             }
           }
@@ -160,6 +178,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -173,6 +195,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -181,14 +206,14 @@
         }
       }
     },
-    "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+    "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\Rocío\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\CompulsoryPetshop-master\\Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocío\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,8 +229,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
-                "projectPath": "C:\\CSharp\\CompulsoryPetshop-master\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj"
+              "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj": {
+                "projectPath": "C:\\CSharp\\CompulsoryPetshop_RocioTapiaLopez\\Assignment_Petshop\\CompulsoryPetshop.Core\\CompulsoryPetshop.Core.csproj"
               }
             }
           }
@@ -218,6 +243,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -229,6 +260,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

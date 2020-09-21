@@ -2,6 +2,7 @@
 using CompulsoryPetshop.UI;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CompulsoryPetshop.Core.ApplicationService.Service
@@ -9,29 +10,42 @@ namespace CompulsoryPetshop.Core.ApplicationService.Service
     public class PetService : IPetService
     {
         readonly IPetRepository _petRepo;
+        readonly IPetTypeRepository _petTypeRepo;
 
-        public PetService(IPetRepository petRepository)
+        public PetService(IPetRepository petRepository, IPetTypeRepository petTypeRepository)
         {
             _petRepo = petRepository;
+            _petTypeRepo = petTypeRepository;
         }
 
-        public void CreatePet(Pet newPet)
+        public Pet CreatePet(Pet newPet)
         {
-            _petRepo.CreatePet(newPet);
-        }
-
-        public void DeleteByID(int id)
-        {
-            _petRepo.DeleteByID(id);
+            if(newPet.PetName.Equals(null))
+            {
+                throw new Exception("Please, enter a valid value for the name of the Pet");
+            }
+            return _petRepo.CreatePet(newPet);
         }
 
         public Pet FindPetbyID(int id)
         {
-            throw new NotImplementedException();
+            if (id < 0)
+            {
+                throw new Exception("Please, enter a valid value for the ID");
+            }
+            return _petRepo.FindPetbyID(id);
         }
 
         public List<Pet> GetPetsByType(string type)
         {
+            foreach (var petType in _petTypeRepo.ReadAllPetTypes())
+            {
+
+                if (!type.Equals(petType.GetType()))
+                {
+                    throw new Exception("Please, enter a valid value for the Type");
+                }
+            }
             return _petRepo.GetPetsByType(type);
         }
 
@@ -45,11 +59,32 @@ namespace CompulsoryPetshop.Core.ApplicationService.Service
             return _petRepo.GetSortedList();
         }
 
-
-
-        public void UpdateByID(int id, Pet pet)
+        public List<Pet> ReadAllPets()
         {
-            _petRepo.UpdateByID(id, pet);
+            return _petRepo.ReadAllPets();
+        }
+
+        public Pet UpdatePetByID(int id, Pet petUpdate)
+        {
+            if (id < 0)
+            {
+                throw new Exception("Please, enter a valid value for the ID");
+            }
+            if (petUpdate.Equals(null))
+            {
+                throw new Exception("Please, include the updated Pet");
+            }
+            return _petRepo.UpdateByID(id, petUpdate);
+        }
+
+        public Pet DeleteByID(int id)
+        {
+            if (id < 0)
+            {
+                throw new Exception("Please, enter a valid value for the ID");
+            }
+
+            return _petRepo.DeleteByID(id);
         }
     }
 }

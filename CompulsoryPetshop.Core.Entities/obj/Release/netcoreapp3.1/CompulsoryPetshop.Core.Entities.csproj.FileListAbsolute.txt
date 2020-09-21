@@ -1,0 +1,9 @@
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\bin\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.deps.json
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\bin\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\bin\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.pdb
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.csprojAssemblyReference.cache
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.AssemblyInfoInputs.cache
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.AssemblyInfo.cs
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.csproj.CoreCompileInputs.cache
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.dll
+C:\CSharp\CompulsoryPetshop_RocioTapiaLopez\Assignment_Petshop\CompulsoryPetshop.Core.Entities\obj\Release\netcoreapp3.1\CompulsoryPetshop.Core.Entities.pdb
